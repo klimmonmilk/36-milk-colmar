@@ -25,6 +25,8 @@
 				--color-grey1: #D8D8D8;
 				--color-grey2: #4A4A4A;
 				--color-grey3: #9B9B9B;
+				--color-grey4: #F5F4F5;
+				--color-grey5: #F3F5F5;
 			}
 		</style>
 	</head>
@@ -54,45 +56,71 @@
 		<main>
 			<section class="bg-grey1 md:flex">
 					<img class="w-auto h-auto object-cover" src="images/banner.jpg">
-				<div class="p-10">
-					<h2 class="text-3xl text-grey2 font-bold flex justify-start">Learn something <br>new everyday</h2>
-					<p class="text-xl text-grey2 font-semibold">Lorem ipsum dolor sit amet, consectetur adipisicing elit.</p>
+				<div class="px-4 pt-4 pb-8">
+					<h2 class="text-3xl text-grey2 font-bold flex justify-start pt-4 pb-8">Learn something <br>new everyday</h2>
+					<p class="text-xl text-grey2 font-semibold pb-6">Lorem ipsum dolor sit amet, consectetur adipisicing elit.</p>
 					<a class="bg-grey3 flex justify-center items-center text-white font-semibold p-3" href="">Start here</a>
 				</div>
 			</section>
 
-			<section>
+			<section class="hidden">
 				<img src="images/information-main.jpg">
 				<h2>It doesn't hurt to keep practicing</h2>
 				<p>"Lorem, ipsum dolor sit amet consectetur adipisicing elit. Consectetur nisi, voluptatum corrupti vel iusto veritatis maxime facilis veniam incidunt voluptatibus sed illo eveniet aliquid delectus reiciendis non. Asperiores, cumque voluptate?"</p>
 				<p>Emanuel, Sr Strategist at Hiring.com</p>
 			</section>
 
-			<section>
+			<section class="px-4 bg-grey5">
 				<div>
-					<img class="p-4"src="images/information-orientation-mobile.jpg">
-					<h3>Orientation date</h3>
-					<p>Tue 10/11 & Wed 10/12: 8am-3pm</p>
-					<a href="">Read more</a>
+					<img class="py-4" src="images/information-orientation-mobile.jpg">
+					<h3 class="text-xl font-semibold pl-4 text-grey2">Orientation date</h3>
+					<p class="pl-4 font-light">Tue 10/11 & Wed 10/12: 8am-3pm</p>
+					<p class="pl-4 text-sm text-blue-500 pb-12 pt-1"><a href="">Read more</a></p>
 				</div>
 
 				<div>
-					<img src="images/information-campus.jpg">
-					<h3>Our campus</h3>
-					<p>Find which campus is close by you</p>
-					<a href="">Read more</a>
+					<img class="py-4" src="images/information-campus-mobile.jpg">
+					<h3 class="text-xl font-semibold pl-4 text-grey2">Our campus</h3>
+					<p class="pl-4 font-light">Find which campus is close by you</p>
+					<p class="pl-4 text-sm text-blue-500 pb-12 pt-1"><a href="">Read more</a></p>
 				</div>
 
 				<div>
-					<img src="images/information-guest-lecture.jpg">
-					<h3>Our guest lecture</h3>
-					<p>Join a keynote with Oliver Sack about music in medical treatment</p>
-					<a href="">Read more</a>
+					<img class="py-4" src="images/information-guest-lecture-mobile.jpg">
+					<h3 class="text-xl font-semibold pl-4 text-grey2">Special guest lecture</h3>
+					<p class="pl-4 font-light">Join a keynote with Oliver Sack about music in medical treatment</p>
+					<p class="pl-4 text-sm text-blue-500 pb-8 pt-1"><a href="">Read more</a></p>
 				</div>
 			</section>
-
-
-
+		<hr class="opacity-10">
+			<section class="px-4 pb-8 bg-grey4">
+				<h2 class="font-bold text-center pt-8 pb-4 text-grey2 text-3xl">Start learning</h2>
+				<ul class="flex-col justify-start text-grey2 text-xl font-semibold gap-2">
+					<li>
+						<a class="bg-grey1 px-4 pt-4 pb-6 mb-2 flex justify-start items-center content-center" href="">Software engineering</a></li>
+					<li>
+						<a class="bg-grey1 px-4 pt-4 pb-6 mb-2 flex justify-start items-center content-center" href="">Computer art</a></li>
+					<li>
+						<a class="bg-grey1 px-4 pt-4 pb-6 mb-2 flex justify-start items-center content-center" href="">Design</a></li>
+					<li>
+						<a class="bg-grey1 px-4 pt-4 pb-6 mb-2 flex justify-start items-center content-center" href="">Business</a></li>
+					<li>
+						<a class="bg-grey1 px-4 pt-4 pb-6 mb-2 flex justify-start items-center content-center" href="">Data</a></li>
+					<li>
+						<a class="bg-grey1 px-4 pt-4 pb-6 mb-2 flex justify-start items-center content-center" href="">Marketing</a></li>
+				</ul>
+			</section>
+		<hr class="opacity-10">
+			<section class="pt-8">
+				<h2 class="font-bold text-center text-grey2 text-3xl pb-4">Thesis exhibits</h2>
+				<video controls class="pb-6">
+					<source src="videos/thesis.mp4">
+				</video>
+			</section>
 		</main>
+
+		<footer class="py-4 text-xs pl-4">
+			<p>© 2016 Colmar Academy. All rights reserved</p>
+		</footer>
 	</body>
 </html>
